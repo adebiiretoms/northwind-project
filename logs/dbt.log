@@ -1,0 +1,147 @@
+[0m11:40:19.410423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEB4477310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEB6075010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEB481CAD0>]}
+
+
+============================== 11:40:19.418459 | 8eb23614-56ff-4763-9c55-eea9b88531e6 ==============================
+[0m11:40:19.418459 [info ] [MainThread]: Running with dbt=1.7.5
+[0m11:40:19.418459 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:40:48.268068 [debug] [MainThread]: Starter project path: C:\Users\HP\anaconda3\Lib\site-packages\dbt\include\starter_project
+[0m11:40:48.427737 [info ] [MainThread]: 
+Your new dbt project "transformation_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:40:48.427737 [info ] [MainThread]: Setting up your profile.
+[0m11:41:02.480072 [debug] [MainThread]: Command `dbt init` succeeded at 11:41:02.429618 after 43.14 seconds
+[0m11:41:02.482070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEB5DBB090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEAEEEB3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEB60E9690>]}
+[0m11:41:02.484069 [debug] [MainThread]: Flushing usage events
+[0m11:42:04.527247 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D5F1557DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D5F154BF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D5F1556410>]}
+
+
+============================== 11:42:04.542870 | cc02d637-ddfd-4e24-b158-025d69951fa0 ==============================
+[0m11:42:04.542870 [info ] [MainThread]: Running with dbt=1.7.5
+[0m11:42:04.542870 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init transformation_project', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:42:04.542870 [info ] [MainThread]: A project called transformation_project already exists here.
+[0m11:42:04.557977 [debug] [MainThread]: Command `dbt init` succeeded at 11:42:04.556977 after 0.03 seconds
+[0m11:42:04.559077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D5EA40B3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D5EA654D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D5EA654210>]}
+[0m11:42:04.561075 [debug] [MainThread]: Flushing usage events
+[0m11:42:34.667739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220FD96A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220FD96B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220FD97050>]}
+
+
+============================== 11:42:34.667739 | 9aa99e15-5c02-4da6-956f-d331121b33c7 ==============================
+[0m11:42:34.667739 [info ] [MainThread]: Running with dbt=1.7.5
+[0m11:42:34.667739 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init transformation_project', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:42:34.683361 [debug] [MainThread]: Starter project path: C:\Users\HP\anaconda3\Lib\site-packages\dbt\include\starter_project
+[0m11:42:34.718732 [info ] [MainThread]: 
+Your new dbt project "transformation_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:42:34.734356 [info ] [MainThread]: Setting up your profile.
+[0m11:43:08.986928 [info ] [MainThread]: Profile transformation_project written to C:\Users\HP\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:43:09.003217 [debug] [MainThread]: Command `dbt init` succeeded at 11:43:09.002213 after 34.35 seconds
+[0m11:43:09.005565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220FADB090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022208C3B3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002220E302750>]}
+[0m11:43:09.007634 [debug] [MainThread]: Flushing usage events
+[0m16:33:27.559563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6F9EF7F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6F865C310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6F9F06D10>]}
+
+
+============================== 16:33:27.606494 | 65fbc65c-6b0f-41f1-849e-a2bb63b13f7a ==============================
+[0m16:33:27.606494 [info ] [MainThread]: Running with dbt=1.7.5
+[0m16:33:27.606494 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m16:33:27.606494 [info ] [MainThread]: dbt version: 1.7.5
+[0m16:33:27.622064 [info ] [MainThread]: python version: 3.11.5
+[0m16:33:27.629237 [info ] [MainThread]: python path: C:\Users\HP\anaconda3\python.exe
+[0m16:33:27.636226 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:33:27.807688 [info ] [MainThread]: Using profiles dir at C:\Users\HP\.dbt
+[0m16:33:27.807688 [info ] [MainThread]: Using profiles.yml file at C:\Users\HP\.dbt\profiles.yml
+[0m16:33:27.807688 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\HP\Desktop\Algora\Algoranorth\northwind-project\dbt_project.yml
+[0m16:33:27.807688 [info ] [MainThread]: adapter type: postgres
+[0m16:33:27.807688 [info ] [MainThread]: adapter version: 1.7.5
+[0m16:33:27.823249 [info ] [MainThread]: Configuration:
+[0m16:33:27.824973 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:33:27.827974 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:33:27.830127 [info ] [MainThread]: Required dependencies:
+[0m16:33:27.830127 [debug] [MainThread]: Executing "git --help"
+[0m16:33:28.075841 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:33:28.075841 [debug] [MainThread]: STDERR: "b''"
+[0m16:33:28.075841 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:33:28.075841 [info ] [MainThread]: Connection:
+[0m16:33:28.075841 [info ] [MainThread]:   host: localhost
+[0m16:33:28.091469 [info ] [MainThread]:   port: 5432
+[0m16:33:28.091469 [info ] [MainThread]:   user: postgres
+[0m16:33:28.095526 [info ] [MainThread]:   database: northwind
+[0m16:33:28.097525 [info ] [MainThread]:   schema: staging
+[0m16:33:28.098525 [info ] [MainThread]:   connect_timeout: 10
+[0m16:33:28.100753 [info ] [MainThread]:   role: None
+[0m16:33:28.100753 [info ] [MainThread]:   search_path: None
+[0m16:33:28.100753 [info ] [MainThread]:   keepalives_idle: 0
+[0m16:33:28.100753 [info ] [MainThread]:   sslmode: None
+[0m16:33:28.111385 [info ] [MainThread]:   sslcert: None
+[0m16:33:28.113387 [info ] [MainThread]:   sslkey: None
+[0m16:33:28.115385 [info ] [MainThread]:   sslrootcert: None
+[0m16:33:28.118382 [info ] [MainThread]:   application_name: dbt
+[0m16:33:28.119044 [info ] [MainThread]:   retries: 1
+[0m16:33:28.119044 [info ] [MainThread]: Registered adapter: postgres=1.7.5
+[0m16:33:28.119044 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m16:33:28.119044 [debug] [MainThread]: Using postgres connection "debug"
+[0m16:33:28.128080 [debug] [MainThread]: On debug: select 1 as id
+[0m16:33:28.130079 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:33:28.208000 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m16:33:28.210782 [debug] [MainThread]: On debug: Close
+[0m16:33:28.212782 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:33:28.214782 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:33:28.216780 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\HP\Desktop\Algora\Algoranorth\northwind-project\dbt_project.yml> not found
+
+[0m16:33:28.221472 [debug] [MainThread]: Command `dbt debug` failed at 16:33:28.221472 after 0.76 seconds
+[0m16:33:28.222472 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:33:28.223471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6F2D6B3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6F9F25E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6F9F26110>]}
+[0m16:33:28.224471 [debug] [MainThread]: Flushing usage events
+[0m16:34:01.974506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002055F211290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002055F1F6B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002055F1A5010>]}
+
+
+============================== 16:34:01.994612 | 8a3c7202-defd-44fc-a9dd-131e0a3b0fa7 ==============================
+[0m16:34:01.994612 [info ] [MainThread]: Running with dbt=1.7.5
+[0m16:34:01.997610 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:34:21.394789 [info ] [MainThread]: A project called transformation_project already exists here.
+[0m16:34:21.394789 [debug] [MainThread]: Command `dbt init` succeeded at 16:34:21.394789 after 19.55 seconds
+[0m16:34:21.394789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002055EA2DE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205580AB3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002055EA7C410>]}
+[0m16:34:21.394789 [debug] [MainThread]: Flushing usage events
+[0m16:34:28.937962 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m16:34:52.558726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241F4C2BFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241F4A0E510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241F4C2AF10>]}
+
+
+============================== 16:34:52.572561 | bf82810b-cb8b-4c2a-9e75-3b8e704696ed ==============================
+[0m16:34:52.572561 [info ] [MainThread]: Running with dbt=1.7.5
+[0m16:34:52.574558 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:34:52.575557 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\HP\Desktop\Algora\Algoranorth\northwind-project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:34:52.579557 [debug] [MainThread]: Command `dbt seed` failed at 16:34:52.579557 after 0.11 seconds
+[0m16:34:52.580556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241EDA9B3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241F4C32110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241F4C32890>]}
+[0m16:34:52.581556 [debug] [MainThread]: Flushing usage events
